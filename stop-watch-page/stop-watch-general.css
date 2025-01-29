@@ -1,0 +1,8 @@
+body {
+  font-family: Arial;
+  background-color: rgb(31, 65, 101);
+  display: flex;
+  justify-content: center;
+}
+
+button {cursor: pointer}

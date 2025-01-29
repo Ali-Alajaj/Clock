@@ -1,0 +1,49 @@
+main {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 50px;
+  background-color: rgb(19, 23, 37);
+  height: 380px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  box-shadow: 0 0 90px orangered;
+  font-size: 70px;
+  transition: box-shadow 0.3s;
+}
+
+main button {
+  background: none;
+  color: white;
+  border: 3px solid rgb(30, 254, 68);
+  border-radius: 14px;
+  padding: 20px;
+  width: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.19s;
+}
+
+main button:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.buttons {
+  margin-top: 30px;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.is-working {box-shadow: 0 0 90px rgb(30, 254, 68);}
+
+.start-button-stop {border-color: orangered;}

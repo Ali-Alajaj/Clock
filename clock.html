@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clock</title>
+
+    <link rel="stylesheet" href="clock-page/clock-main.css">
+    <link rel="stylesheet" href="clock-page/clock-general.css">
+    <link rel="stylesheet" href="clock-page/clock-nav.css">
+  </head>
+  <body>
+    <p class="title">Clock</p>
+    <main>
+      <div class="time">
+        <div>
+          <p class="number js-hours">0</p>
+          <p class="name">hours</p>
+        </div>
+        <p class="number">:</p>
+        <div>
+          <p class="number js-minutes">00</p>
+          <p class="name">mins</p>
+        </div>
+        <p class="number">:</p>
+        <div>
+          <p class="number js-seconds">00</p>
+          <p  class="name">sec</p>
+        </div>
+      </div>
+    </main>
+
+    <button class="nav-button js-nav-button">
+      <img src="clock-page/hamburger-menu-icon.png">
+    </button>
+
+    <nav>
+      <button class="page">Clock</button>
+      <a href="stop-watch.html"><button>StopWatch</button></a>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.13/dayjs.min.js"></script>
+    <script src="clock-page/clock-script.js"></script>
+  </body>
+</html>

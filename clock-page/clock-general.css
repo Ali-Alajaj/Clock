@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  background: linear-gradient(-320deg, blue, cyan);
+  background-attachment: fixed;
+}
+
+p {margin: 0;}
+button {cursor: pointer;}

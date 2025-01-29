@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stopwatch</title>
+
+    <link rel="stylesheet" href="stop-watch-page/stop-watch-general.css">
+    <link rel="stylesheet" href="stop-watch-page/stop-watch-main.css">
+    <link rel="stylesheet" href="stop-watch-page/stop-watch-nav.css">
+  </head>
+  <body>
+    <main>
+      <div class="js-time time">
+        <span class="js-minutes">00</span>:
+        <span class="js-seconds">00</span>
+      </div>
+      <div class="buttons">
+        <button class="js-start-button start-button">Start</button>
+        <button class="js-reset-button">Reset</button>
+      </div>
+    </main>
+
+    <button class="nav-button js-nav-button">
+      <img src="stop-watch-page/hamburger-menu-icon.png">
+    </button>
+
+    <nav>
+      <a href="clock.html"><button>Clock</button></a>
+      <button class="page">StopWatch</button>
+    </nav>
+
+    <script src="stop-watch-page/stop-watch-script.js"></script>
+  </body>
+</html>
