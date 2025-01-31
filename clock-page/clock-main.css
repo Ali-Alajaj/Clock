@@ -1,7 +1,6 @@
 main {
-  position: absolute;
-  top: 25%;
-  bottom: 50%;
+  margin-top: 30px;
+  height: 180px;
   color: white;
   display: flex;
   align-items: center;
@@ -14,7 +13,7 @@ main {
 .time {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 60%;
 }
 
 .number {font-size: 60px;}
@@ -34,7 +33,6 @@ main {
   color: white;
   font-weight: bold;
   font-size: 50px;
-  margin-top: 30px;
   border: solid rgb(0, 35, 85) 5px;
   border-radius: 30px;
   padding: 20px 30px;
